@@ -3,10 +3,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>CatPhotoApp</title>
   </head>
   <body>
-    <main>
+    <main class="grid">
       <h1>CatPhotoApp</h1>
       <section>
         <h2>Cat Photos</h2>
@@ -107,15 +110,18 @@
             name="catphotourl"
             placeholder="cat photo URL"
             required
+            class="catphotourl"
           />
-          <button type="submit">Submit</button>
+          <button type="submit" id="submit">Submit</button>
         </form>
       </section>
     </main>
     <footer>
       <p>
-        No Copyright -
-        <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+        &copy No Copyright -
+        <a href="https://www.freecodecamp.org" class="freecodecamp"
+          >freeCodeCamp.org</a
+        >
       </p>
     </footer>
   </body>
